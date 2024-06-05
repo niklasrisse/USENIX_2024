@@ -1,0 +1,42 @@
+accuracy & UniXcoder & 0.693 & -0.043 $\downarrow$ & -0.011 $\uparrow$ & -0.050 $\downarrow$ & 0.975 & -0.005 $\downarrow$ & -0.002 $\uparrow$ & -0.010 $\downarrow$ \\ 
+ & CoTexT & 0.673 & -0.022 $\downarrow$ & -0.014 $\uparrow$ & -0.030 $\downarrow$ & 0.973 & -0.001 $\downarrow$ & -0.001 $\uparrow$ & -0.003 $\downarrow$ \\ 
+ & GraphCodeBERT & 0.655 & -0.015 $\downarrow$ & -0.006 $\uparrow$ & -0.021 $\downarrow$ & 0.973 & -0.014 $\downarrow$ & -0.002 $\uparrow$ & -0.015 $\downarrow$ \\ 
+ & CodeBERT & 0.651 & -0.034 $\downarrow$ & -0.000 $\uparrow$ & -0.040 $\downarrow$ & 0.974 & -0.007 $\downarrow$ & -0.002 $\uparrow$ & -0.012 $\downarrow$ \\ 
+ & VulBERTa & 0.639 & -0.017 $\downarrow$ & -0.004 $\uparrow$ & -0.025 $\downarrow$ & 0.973 & -0.011 $\downarrow$ & -0.002 $\uparrow$ & -0.012 $\downarrow$ \\ 
+ & PLBart & 0.633 & -0.021 $\downarrow$ & -0.007 $\uparrow$ & -0.026 $\downarrow$ & 0.972 & -0.003 $\downarrow$ & -0.002 $\uparrow$ & -0.008 $\downarrow$ \\ \hline
+ &  &  & \textbf{-0.025} $\downarrow$ & \textbf{-0.007} $\uparrow$ & \textbf{-0.032} $\downarrow$ &  & \textbf{-0.007} $\downarrow$ & \textbf{-0.002} $\uparrow$ & \textbf{-0.010} $\downarrow$ \\ \hline
+f1 & UniXcoder & 0.680 & -0.037 $\downarrow$ & -0.007 $\uparrow$ & -0.041 $\downarrow$ & 0.880 & -0.028 $\downarrow$ & -0.012 $\uparrow$ & -0.054 $\downarrow$ \\ 
+ & CoTexT & 0.635 & 0.001 $\downarrow$ & 0.006 $\uparrow$ & 0.006 $\downarrow$ & 0.872 & -0.006 $\downarrow$ & -0.006 $\uparrow$ & -0.020 $\downarrow$ \\ 
+ & GraphCodeBERT & 0.629 & -0.024 $\downarrow$ & -0.013 $\uparrow$ & -0.033 $\downarrow$ & 0.869 & -0.093 $\downarrow$ & -0.006 $\uparrow$ & -0.091 $\downarrow$ \\ 
+ & CodeBERT & 0.596 & -0.005 $\downarrow$ & 0.012 $\uparrow$ & 0.001 $\downarrow$ & 0.873 & -0.045 $\downarrow$ & -0.007 $\uparrow$ & -0.082 $\downarrow$ \\ 
+ & VulBERTa & 0.652 & -0.050 $\downarrow$ & -0.014 $\uparrow$ & -0.048 $\downarrow$ & 0.873 & -0.082 $\downarrow$ & -0.009 $\uparrow$ & -0.073 $\downarrow$ \\ 
+ & PLBart & 0.618 & -0.009 $\downarrow$ & -0.006 $\uparrow$ & -0.016 $\downarrow$ & 0.865 & -0.014 $\downarrow$ & -0.007 $\uparrow$ & -0.035 $\downarrow$ \\ \hline
+ &  &  & \textbf{-0.021} $\downarrow$ & \textbf{-0.004} $\uparrow$ & \textbf{-0.022} $\downarrow$ &  & \textbf{-0.045} $\downarrow$ & \textbf{-0.008} $\uparrow$ & \textbf{-0.059} $\downarrow$ \\ \hline
+recall & UniXcoder & 0.787 & -0.025 $\downarrow$ & -0.016 $\uparrow$ & -0.009 $\downarrow$ & 0.893 & -0.034 $\downarrow$ & -0.011 $\uparrow$ & -0.041 $\downarrow$ \\ 
+ & CoTexT & 0.851 & 0.066 $\downarrow$ & 0.074 $\uparrow$ & 0.105 $\downarrow$ & 0.900 & -0.004 $\downarrow$ & -0.015 $\uparrow$ & -0.029 $\downarrow$ \\ 
+ & GraphCodeBERT & 0.661 & -0.023 $\downarrow$ & -0.029 $\uparrow$ & -0.031 $\downarrow$ & 0.895 & -0.153 $\downarrow$ & -0.005 $\uparrow$ & -0.101 $\downarrow$ \\ 
+ & CodeBERT & 0.572 & 0.079 $\downarrow$ & 0.031 $\uparrow$ & 0.106 $\downarrow$ & 0.890 & -0.090 $\downarrow$ & -0.004 $\uparrow$ & -0.103 $\downarrow$ \\ 
+ & VulBERTa & 0.759 & -0.097 $\downarrow$ & -0.029 $\uparrow$ & -0.056 $\downarrow$ & 0.898 & -0.094 $\downarrow$ & -0.000 $\uparrow$ & -0.073 $\downarrow$ \\ 
+ & PLBart & 0.658 & 0.025 $\downarrow$ & 0.003 $\uparrow$ & 0.024 $\downarrow$ & 0.884 & -0.008 $\downarrow$ & -0.003 $\uparrow$ & -0.015 $\downarrow$ \\ \hline
+ &  &  & \textbf{0.004} $\downarrow$ & \textbf{0.006} $\uparrow$ & \textbf{0.023} $\downarrow$ &  & \textbf{-0.064} $\downarrow$ & \textbf{-0.006} $\uparrow$ & \textbf{-0.060} $\downarrow$ \\ \hline
+precision & UniXcoder & 0.717 & -0.033 $\downarrow$ & 0.020 $\uparrow$ & -0.033 $\downarrow$ & 0.939 & -0.008 $\downarrow$ & 0.030 $\uparrow$ & -0.045 $\downarrow$ \\ 
+ & CoTexT & 0.684 & -0.029 $\downarrow$ & -0.027 $\uparrow$ & -0.044 $\downarrow$ & 0.955 & -0.015 $\downarrow$ & 0.013 $\uparrow$ & -0.012 $\downarrow$ \\ 
+ & GraphCodeBERT & 0.734 & -0.026 $\downarrow$ & -0.019 $\uparrow$ & -0.035 $\downarrow$ & 0.995 & -0.016 $\downarrow$ & -0.005 $\uparrow$ & -0.040 $\downarrow$ \\ 
+ & CodeBERT & 0.847 & -0.115 $\downarrow$ & -0.009 $\uparrow$ & -0.107 $\downarrow$ & 1.000 & -0.000 $\downarrow$ & -0.007 $\uparrow$ & -0.031 $\downarrow$ \\ 
+ & VulBERTa & 0.643 & -0.004 $\downarrow$ & -0.019 $\uparrow$ & -0.034 $\downarrow$ & 0.850 & 0.023 $\downarrow$ & -0.012 $\uparrow$ & -0.010 $\downarrow$ \\ 
+ & PLBart & 0.675 & -0.031 $\downarrow$ & -0.015 $\uparrow$ & -0.049 $\downarrow$ & 0.971 & -0.048 $\downarrow$ & 0.008 $\uparrow$ & -0.068 $\downarrow$ \\ \hline
+ &  &  & \textbf{-0.040} $\downarrow$ & \textbf{-0.012} $\uparrow$ & \textbf{-0.051} $\downarrow$ &  & \textbf{-0.011} $\downarrow$ & \textbf{0.005} $\uparrow$ & \textbf{-0.034} $\downarrow$ \\ \hline
+FPR & UniXcoder & 0.142 & 0.033 $\uparrow$ & -0.018 $\downarrow$ & 0.049 $\uparrow$ & 0.006 & 0.001 $\uparrow$ & -0.003 $\downarrow$ & 0.006 $\uparrow$ \\ 
+ & CoTexT & 0.211 & 0.018 $\uparrow$ & 0.028 $\downarrow$ & 0.034 $\uparrow$ & 0.004 & 0.001 $\uparrow$ & -0.001 $\downarrow$ & 0.001 $\uparrow$ \\ 
+ & GraphCodeBERT & 0.079 & 0.040 $\uparrow$ & -0.003 $\downarrow$ & 0.027 $\uparrow$ & 0.000 & 0.002 $\uparrow$ & 0.000 $\downarrow$ & 0.003 $\uparrow$ \\ 
+ & CodeBERT & 0.026 & 0.140 $\uparrow$ & 0.005 $\downarrow$ & 0.145 $\uparrow$ & 0.000 & 0.000 $\uparrow$ & 0.001 $\downarrow$ & 0.003 $\uparrow$ \\ 
+ & VulBERTa & 0.194 & -0.036 $\uparrow$ & 0.028 $\downarrow$ & 0.040 $\uparrow$ & 0.018 & -0.004 $\uparrow$ & 0.002 $\downarrow$ & -0.001 $\uparrow$ \\ 
+ & PLBart & 0.137 & 0.016 $\uparrow$ & 0.020 $\downarrow$ & 0.026 $\uparrow$ & 0.003 & 0.004 $\uparrow$ & -0.001 $\downarrow$ & 0.007 $\uparrow$ \\ \hline
+ &  &  & \textbf{0.035} $\uparrow$ & \textbf{0.010} $\downarrow$ & \textbf{0.053} $\uparrow$ &  & \textbf{0.001} $\uparrow$ & \textbf{-0.000} $\uparrow$ & \textbf{0.003} $\uparrow$ \\ \hline
+FNR & UniXcoder & 0.213 & 0.025 $\uparrow$ & 0.016 $\downarrow$ & 0.009 $\uparrow$ & 0.107 & 0.034 $\uparrow$ & 0.011 $\downarrow$ & 0.041 $\uparrow$ \\ 
+ & CoTexT & 0.149 & -0.066 $\uparrow$ & -0.074 $\downarrow$ & -0.105 $\uparrow$ & 0.100 & 0.004 $\uparrow$ & 0.015 $\downarrow$ & 0.029 $\uparrow$ \\ 
+ & GraphCodeBERT & 0.339 & 0.023 $\uparrow$ & 0.029 $\downarrow$ & 0.031 $\uparrow$ & 0.105 & 0.153 $\uparrow$ & 0.005 $\downarrow$ & 0.101 $\uparrow$ \\ 
+ & CodeBERT & 0.428 & -0.079 $\uparrow$ & -0.031 $\downarrow$ & -0.106 $\uparrow$ & 0.110 & 0.090 $\uparrow$ & 0.004 $\downarrow$ & 0.103 $\uparrow$ \\ 
+ & VulBERTa & 0.241 & 0.097 $\uparrow$ & 0.029 $\downarrow$ & 0.056 $\uparrow$ & 0.102 & 0.094 $\uparrow$ & 0.000 $\downarrow$ & 0.073 $\uparrow$ \\ 
+ & PLBart & 0.342 & -0.025 $\uparrow$ & -0.003 $\downarrow$ & -0.024 $\uparrow$ & 0.116 & 0.008 $\uparrow$ & 0.003 $\downarrow$ & 0.015 $\uparrow$ \\ \hline
+ &  &  & \textbf{-0.004} $\uparrow$ & \textbf{-0.006} $\downarrow$ & \textbf{-0.023} $\uparrow$ &  & \textbf{0.064} $\uparrow$ & \textbf{0.006} $\uparrow$ & \textbf{0.060} $\uparrow$ \\ 
